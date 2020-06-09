@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family:"Avenir Next";
+    margin-top: 0%;
+    background-image: url("../img/banner01.png");
+}
+
+.top li{
+    List-style: none;
+    float: left;
+    padding: 33px 50px;
+}
+
+.header{
+    
+    background-image: url("../img/banner10.png");
+    height: 90px;
+    width: 1000px;
+    font-size:130%;
+    
+}
+
+.subti{
+    font-size: 130%;
+}
+
+.hedder-list{
+    padding-left: 40px;
+}
+
+.end{
+    float: right;
+}
+
+footer {
+    width: 100%;
+    background-color: #ceccf3;
+    color: #fff;
+    padding: 10px 10;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+  }
+
+.anime{
+    animation-name: fade-in1;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+    font-size: 140%;
+
+    background-color: rgba(118, 120, 230, 0.596);
+}
+
+.top{
+    color: rgb(212, 235, 1);
+}
+
+@keyframes fade-in1{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
